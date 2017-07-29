@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context="com.droiddigger.somadhan.Home">
+
+    <ImageView
+        android:id="@+id/id_logoImage"
+        android:layout_width="197dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/icon" />
+
+    <AutoCompleteTextView
+        android:id="@+id/id_autoCompleteTextView"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/id_logoImage"
+        android:layout_marginTop="30dp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:hint="Search here (Ex: Burger, Chillox...)" />
+
+
+    <Button
+        android:id="@+id/id_searchButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_autoCompleteTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/md_blue_400"
+        android:onClick="on_search_clicked"
+        android:text="Search"
+        android:textColor="@color/md_white_1000"
+        android:theme="@style/colorEffect"
+        tools:style="@style/Base.Widget.AppCompat.Button.Colored" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:text="© Droid Digger 2017"
+        android:textColor="@color/md_grey_800"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:onClick="on_contactUS_clicked"
+        android:text="Contact us"
+        android:textColor="@color/md_blue_900"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView2"
+        android:text="BETA"
+        android:textColor="@color/md_grey_300"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+</RelativeLayout>

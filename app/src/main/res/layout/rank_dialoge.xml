@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/md_grey_50"
+    android:backgroundTint="@color/md_grey_100"
+    android:orientation="vertical"
+    android:padding="2dip">
+
+    <TextView
+        android:id="@+id/rank_dialog_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Your Rating"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp" />
+
+    <RatingBar
+        android:id="@+id/dialog_ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="2"
+        android:scaleX=".8"
+        android:scaleY=".8"
+        android:stepSize="1.0"
+        android:theme="@style/RatingBar" />
+
+    <Button
+        android:id="@+id/rank_dialog_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/md_light_blue_600"
+        android:focusable="false"
+        android:text="Submit"
+        android:textColor="@color/md_white_1000"
+        android:textSize="20dp"
+        android:theme="@style/colorEffect"
+
+        tools:style="@style/Base.Widget.AppCompat.Button.Colored" />
+
+</LinearLayout>

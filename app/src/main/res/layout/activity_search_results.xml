@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.droiddigger.somadhan.SearchResults">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <!--<SearchView-->
+            <!--android:id="@+id/searchView2"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:completionThreshold="1"-->
+            <!--android:queryHint="Search Here...">-->
+
+            <!--</SearchView>-->
+
+
+            <AutoCompleteTextView
+                android:id="@+id/id_autoCompleteTextView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:gravity="center"
+                android:hint="Search here..."
+                android:singleLine="true"
+                android:theme="@style/Autocomplete" />
+        </android.support.v7.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/txt_showing_result_for"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="left"
+            android:text="Showing search result"
+            android:textSize="14sp" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_search_results" />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/fab"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|end"-->
+    <!--android:layout_margin="@dimen/fab_margin"-->
+    <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</android.support.design.widget.CoordinatorLayout>

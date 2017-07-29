@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+<!--for button animation-->
+    <style name="colorEffect" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/md_pink_600</item>
+    </style>
+
+
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/md_blue_600</item>
+        <item name="colorControlActivated">@color/md_blue_400</item>
+    </style>
+
+    <style name="RatingBar2" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/md_white_1000
+        </item>
+        <item name="colorControlActivated">@color/md_yellow_400</item>
+    </style>
+
+    <!--auto complete text view styling-->
+    <style name="Autocomplete" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:background">@color/md_grey_300</item>
+        <item name="colorControlNormal">@color/md_amber_500</item>
+        <item name="colorControlActivated">@color/md_white_1000</item>
+    </style>
+    <!--make button small-->
+    <style name="ButtonStyleSmall" parent="android:Widget.Button.Small">
+        <!-- Customizations  -->
+        <item name="android:minHeight">33dp</item>
+        <item name="android:minWidth">70dp</item>
+    </style>
+</resources>
