@@ -32,7 +32,7 @@ public class VendorListAdapter extends BaseAdapter {
 //        super(context, resource, objects);
 
         mContext = context;
-        vendors=new ArrayList<>();
+        vendors = new ArrayList<>();
         vendors.addAll(objects);
 
         inflater = LayoutInflater.from(mContext);

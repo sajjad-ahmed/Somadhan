@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "856837700498",
-    "firebase_url": "https://somadhan-d6e38.firebaseio.com",
-    "project_id": "somadhan-d6e38",
-    "storage_bucket": "somadhan-d6e38.appspot.com"
+    "project_number": "860914758790",
+    "firebase_url": "https://somadhan-f.firebaseio.com",
+    "project_id": "somadhan-f",
+    "storage_bucket": "somadhan-f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:856837700498:android:7bd351c1a7c97065",
+        "mobilesdk_app_id": "1:860914758790:android:7bd351c1a7c97065",
         "android_client_info": {
           "package_name": "com.droiddigger.somadhan.somadhan.vendor"
         }
       },
       "oauth_client": [
         {
-          "client_id": "856837700498-00g5kbm92mvchfmk861v56fcpccmo75n.apps.googleusercontent.com",
+          "client_id": "860914758790-79hn6a4k4pdgglddkghkta6nbla7b69c.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.droiddigger.somadhan.somadhan.vendor",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "856837700498-nntl1pmspvsmnepdfncmht5k1n6aal1p.apps.googleusercontent.com",
+          "client_id": "860914758790-nag3veo4glmkfrbnedtlmtlilj63rue2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3BswB607PCbpYTbzh4LibgORuJKXWvFI"
+          "current_key": "AIzaSyAc-kamP0h6Vypz8aYAjsNjgNCCBIAo_78"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "856837700498-nntl1pmspvsmnepdfncmht5k1n6aal1p.apps.googleusercontent.com",
+              "client_id": "860914758790-nag3veo4glmkfrbnedtlmtlilj63rue2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -52,14 +52,14 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:856837700498:android:b9b99fcc45dbd51b",
+        "mobilesdk_app_id": "1:860914758790:android:b9b99fcc45dbd51b",
         "android_client_info": {
           "package_name": "com.droiddigger.somadhan"
         }
       },
       "oauth_client": [
         {
-          "client_id": "856837700498-ci9l4cj1co0uff3t51ju8nm5d67q8q4m.apps.googleusercontent.com",
+          "client_id": "860914758790-5cq42fp4atk9fd7jfauj9ee4pk0pfc9j.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.droiddigger.somadhan",
@@ -67,13 +67,21 @@
           }
         },
         {
-          "client_id": "856837700498-nntl1pmspvsmnepdfncmht5k1n6aal1p.apps.googleusercontent.com",
+          "client_id": "860914758790-rapaju8ckpveakn8sh91bp4pml285pi5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.droiddigger.somadhan",
+            "certificate_hash": "80ba5c92f454fae7a6ec28bfe7e1df6af4ed738c"
+          }
+        },
+        {
+          "client_id": "860914758790-nag3veo4glmkfrbnedtlmtlilj63rue2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3BswB607PCbpYTbzh4LibgORuJKXWvFI"
+          "current_key": "AIzaSyAc-kamP0h6Vypz8aYAjsNjgNCCBIAo_78"
         }
       ],
       "services": {
@@ -84,7 +92,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "856837700498-nntl1pmspvsmnepdfncmht5k1n6aal1p.apps.googleusercontent.com",
+              "client_id": "860914758790-nag3veo4glmkfrbnedtlmtlilj63rue2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

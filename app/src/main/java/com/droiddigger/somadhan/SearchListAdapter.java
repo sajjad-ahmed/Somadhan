@@ -36,7 +36,6 @@ public class SearchListAdapter extends ArrayAdapter<Search> {
         TextView set= (TextView) convertView.findViewById(R.id.txt_details);
         set.setText(search.searchCategory);
 
-
         return convertView;
     }
 }
